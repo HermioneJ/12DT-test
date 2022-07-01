@@ -1,0 +1,11 @@
+<?php
+    /* Connect to the database */
+    $dbcon = mysqli_connect("localhost", "nyb", "password", "nyb_coffeeshop");
+
+    /* Checks if DB connection was successful */
+    if($dbcon == NULL) {
+        echo "Could not connect to database";
+        exit();
+    }o "connected to database";
+}
+
